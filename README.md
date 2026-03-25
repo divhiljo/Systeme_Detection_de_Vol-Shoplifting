@@ -9,7 +9,6 @@
 - [Technologies utilisées](#technologies-utilisées)
 - [Installation](#installation)
 - [Utilisation](#utilisation)
-- [Structure du projet](#structure-du-projet)
 - [Contributeurs](#contributeurs)
 - [Licence](#licence)
 
@@ -80,46 +79,6 @@ venv\Scripts\activate           # Windows
 # Lancer le système de détection
 python main.py
 
-
-## 📁 Structure du projet
-
-```
-Project/
-│
-|-- yolo11n.pt     # Modèles pré-entraînés
-|-- shoplifting_wights.pt     # Modèles pré-entraînés
-|-- shoplifting_detection_dual_model.py                 # Code a executer
-|-- validation/              # Video de test 
-+-- README.md 
-
-```
-```
-detection-de-vol/
-|
-|-- data/                   # Donnees d'entrainement et de test
-|   |-- images/
-|   +-- videos/
-|
-|-- models/                 # Modeles pre-entraines
-|   +-- yolo_weights.pt
-|
-|-- src/                    # Code source principal
-|   |-- detection.py        # Module de detection
-|   |-- alertes.py          # Systeme d'alertes
-|   |-- tracker.py          # Suivi des objets
-|   +-- utils.py            # Fonctions utilitaires
-|
-|-- notebooks/              # Jupyter notebooks d'analyse
-|
-|-- tests/                  # Tests unitaires
-|
-|-- app.py                  # Interface web (Flask/FastAPI)
-|-- main.py                 # Point d'entree principal
-|-- requirements.txt        # Dependances Python
-|-- .env.example            # Exemple de configuration
-+-- README.md               # Ce fichier
-```
- 
 ---
 
 ## 🤝 Contributeurs
