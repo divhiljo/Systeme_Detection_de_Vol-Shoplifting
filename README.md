@@ -1,4 +1,4 @@
-# 🔍 Détection de Vol
+# 🔍 Système de Détection de Vol par Intelligence Artificielle
 
 Un système intelligent de détection de vol basé sur la vision par ordinateur et/ou l'apprentissage automatique.
 
@@ -19,34 +19,38 @@ Un système intelligent de détection de vol basé sur la vision par ordinateur 
 
 ## 📌 Aperçu du projet
 
-Ce projet vise à développer un système automatique de **détection de vol** en temps réel. Il analyse des flux vidéo ou des données comportementales pour identifier des activités suspectes et alerter les responsables de sécurité.
+Ce projet vise à développer un système intelligent et automatique capable des **comportement suspect et des actes de vol** en temps réel. Il analyse des flux vidéo pour identifier des activités suspectes et alerter les responsables de sécurité.
 
-> **Cas d'usage :** Surveillance de magasins, entrepôts, parkings ou tout espace public nécessitant un contrôle de sécurité.
+Il repose sur deux modèles d’intelligence artificielle :
+
+Détection de personnes
+Détection de comportements de vol
+
+> **Cas d'usage :** Surveillance de magasins, entrepôts.
 
 ---
 
 ## ✨ Fonctionnalités
 
-- 🎥 Analyse de flux vidéo en temps réel
+- 🎥 Détection en temps réel des personnes dans une scène
 - 🧠 Détection de comportements suspects via des modèles IA
-- 🚨 Système d'alerte automatique (email, notification)
-- 📊 Tableau de bord de surveillance
+- 🚨 Système d'alerte automatique envoie d'email(notification)
+- 📊 Mini tableau de bord de surveillance
 - 🗂️ Enregistrement et archivage des incidents détectés
 - 📈 Statistiques et rapports de sécurité
 
 ---
 
-## 🛠️ Technologies utilisées
+## 🛠️ Technologies utilisées  
 
 | Technologie | Rôle |
 |---|---|
-| Python 3.x | Langage principal |
+| Python 3.13.7 | Langage principal |
 | OpenCV | Traitement d'images et vidéos |
-| TensorFlow / PyTorch | Modèles de deep learning |
-| YOLO / MobileNet | Détection d'objets et de personnes |
-| Flask / FastAPI | API backend |
-| SQLite / PostgreSQL | Base de données des incidents |
-| React / HTML-CSS | Interface utilisateur |
+| Numpy | Modèles de deep learning |
+| YOLO | Détection d'objets et de personnes |
+| tkinter | Interface graphique |
+
 
 ---
 
@@ -54,16 +58,16 @@ Ce projet vise à développer un système automatique de **détection de vol** e
 
 ### Prérequis
 
-- Python 3.8+
+- Python 3.13.7
 - pip
 - Git
-- (Optionnel) GPU avec CUDA pour de meilleures performances
+- (Optionnel) Avoir un bon GPU possedant CUDA pour de meilleures performances
 
 ### Étapes
 
 ```bash
 # 1. Cloner le dépôt
-git clone https://github.com/votre-utilisateur/detection-de-vol.git
+git clone https://github.com/divhiljo/Systeme_Detection_de_Vol-Shoplifting.git
 cd detection-de-vol
 
 # 2. Créer un environnement virtuel
@@ -71,98 +75,47 @@ python -m venv venv
 source venv/bin/activate        # Linux / macOS
 venv\Scripts\activate           # Windows
 
-# 3. Installer les dépendances
-pip install -r requirements.txt
-
-# 4. Configurer les variables d'environnement
-cp .env.example .env
-# Editez le fichier .env avec vos paramètres
-```
-
----
 
 ## 🚀 Utilisation
 
 ```bash
-# Lancer le système de détection avec une caméra en direct
-python main.py --source 0
+# Lancer le système de détection
+python main.py
 
-# Lancer avec un fichier vidéo
-python main.py --source chemin/vers/video.mp4
-
-# Lancer le tableau de bord web
-python app.py
-```
-
-Accédez au tableau de bord via : `http://localhost:5000`
-
----
 
 ## 📁 Structure du projet
 
 ```
-detection-de-vol/
+Project/
 │
-├── data/                   # Données d'entraînement et de test
-│   ├── images/
-│   └── videos/
-│
-├── models/                 # Modèles pré-entraînés
-│   └── yolo_weights.pt
-│
-├── src/                    # Code source principal
-│   ├── detection.py        # Module de détection
-│   ├── alertes.py          # Système d'alertes
-│   ├── tracker.py          # Suivi des objets
-│   └── utils.py            # Fonctions utilitaires
-│
-├── notebooks/              # Jupyter notebooks d'analyse
-│
-├── tests/                  # Tests unitaires
-│
-├── app.py                  # Interface web (Flask/FastAPI)
-├── main.py                 # Point d'entrée principal
-├── requirements.txt        # Dépendances Python
-├── .env.example            # Exemple de configuration
-└── README.md               # Ce fichier
+├── yolo11n.pt     # Modèles pré-entraînés
+├── shoplifting_wights.pt     # Modèles pré-entraînés
+├── shoplifting_detection_dual_model.py                 # Code a executer
+├── validation/              # Video de test 
+└── README.md               
 ```
-
----
-
-## 🧪 Tests
-
-```bash
-# Lancer tous les tests
-pytest tests/
-
-# Avec couverture de code
-pytest --cov=src tests/
-```
-
----
 
 ## 🤝 Contributeurs
 
 | Nom | Rôle |
-|---|---|
-| [Votre Nom](https://github.com/votre-profil) | Développeur principal |
-
-> Les contributions sont les bienvenues ! Ouvrez une *issue* ou soumettez une *pull request*.
+| BEBENE MBABE Guy-durent | Développeur principal |
+| MAFFOCK Junie-Varette | Chef d'equipe |
+| NANKAP-NDIZEU Loic-Aurel | Mentor/Conseiller Technique |
 
 ---
 
 ## 📄 Licence
 
-Ce projet est sous licence **MIT**. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+Ce projet est sous licence **Institut Ucac-Icam**.
 
 ---
 
 ## 📞 Contact
 
 Pour toute question ou suggestion :
-- 📧 Email : votre.email@exemple.com
-- 💼 LinkedIn : [Votre Profil](https://linkedin.com)
-- 🐙 GitHub : [votre-utilisateur](https://github.com/votre-utilisateur)
+- 📧 Email : guydurentbebenembabe@gmail.com
+- 💼 LinkedIn : www.linkedin.com/in/guy-durent-bebene-mbabe-576152341
+- 🐙 GitHub : https://github.com/divhiljo
 
 ---
 
