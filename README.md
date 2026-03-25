@@ -1,7 +1,5 @@
 # 🔍 Système de Détection de Vol par Intelligence Artificielle
 
-Un système intelligent de détection de vol basé sur la vision par ordinateur et/ou l'apprentissage automatique.
-
 ---
 
 ## 📋 Table des matières
