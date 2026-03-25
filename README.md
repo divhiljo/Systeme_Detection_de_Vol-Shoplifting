@@ -75,7 +75,6 @@ venv\Scripts\activate           # Windows
 
 ## 🚀 Utilisation
 
-```bash
 # Lancer le système de détection
 python main.py
 
@@ -84,6 +83,7 @@ python main.py
 ## 🤝 Contributeurs
 
 | Nom | Rôle |
+|---|---|
 | BEBENE MBABE Guy-durent | Développeur principal |
 | MAFFOCK Junie-Varette | Chef d'equipe |
 | NANKAP-NDIZEU Loic-Aurel | Mentor/Conseiller Technique |
