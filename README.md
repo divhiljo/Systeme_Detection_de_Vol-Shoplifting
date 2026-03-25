@@ -106,3 +106,10 @@ Pour toute question ou suggestion :
 ---
 
 > ⚠️ **Avertissement :** Ce système est destiné à des usages légaux et éthiques uniquement. Assurez-vous de respecter les lois locales sur la surveillance et la protection des données personnelles.
+
+## EXEMPLE
+
+![DEMO1](https://github.com/user-attachments/assets/181fe3f2-43ba-4ccc-a07b-2f66bf845401)
+
+![DEMO2](https://github.com/user-attachments/assets/cb17066f-1547-485a-b3cf-ab9802329474)
+
