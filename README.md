@@ -48,21 +48,19 @@ Détection de comportements de vol
 | YOLO | Détection d'objets et de personnes |
 | tkinter | Interface graphique |
 
-
 ---
 
 ## ⚙️ Installation
 
-### Prérequis
+## Prérequis
 
 - Python 3.13.7
 - pip
 - Git
 - (Optionnel) Avoir un bon GPU possedant CUDA pour de meilleures performances
 
-### Étapes
+## Étapes
 
-```bash
 # 1. Cloner le dépôt
 git clone https://github.com/divhiljo/Systeme_Detection_de_Vol-Shoplifting.git
 cd systeme_Detection_de_Vol-shoplifting
