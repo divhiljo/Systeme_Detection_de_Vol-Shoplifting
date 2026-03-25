@@ -109,7 +109,7 @@ Pour toute question ou suggestion :
 
 ## EXEMPLE
 
-![DEMO1](https://github.com/user-attachments/assets/181fe3f2-43ba-4ccc-a07b-2f66bf845401)
+![DEMO1](assets/DEMO1.gif)
 
-![DEMO2](https://github.com/user-attachments/assets/cb17066f-1547-485a-b3cf-ab9802329474)
+![DEMO2](assets/DEMO2.gif)
 
