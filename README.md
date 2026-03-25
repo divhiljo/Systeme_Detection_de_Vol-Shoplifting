@@ -86,38 +86,13 @@ python main.py
 ```
 Project/
 │
-├── yolo11n.pt     # Modèles pré-entraînés
-├── shoplifting_wights.pt     # Modèles pré-entraînés
-├── shoplifting_detection_dual_model.py                 # Code a executer
-├── validation/              # Video de test 
-└── README.md               
-```
+|-- yolo11n.pt     # Modèles pré-entraînés
+|-- shoplifting_wights.pt     # Modèles pré-entraînés
+|-- shoplifting_detection_dual_model.py                 # Code a executer
+|-- validation/              # Video de test 
++-- README.md 
 
 ```
-detection-de-vol/
-│
-├── data/                   # Données d'entraînement et de test
-│   ├── images/
-│   └── videos/
-│
-├── models/                 # Modèles pré-entraînés
-│   └── yolo_weights.pt
-│
-├── src/                    # Code source principal
-│   ├── detection.py        # Module de détection
-│   ├── alertes.py          # Système d'alertes
-│   ├── tracker.py          # Suivi des objets
-│   └── utils.py            # Fonctions utilitaires
-│
-├── notebooks/              # Jupyter notebooks d'analyse
-│
-├── tests/                  # Tests unitaires
-│
-├── app.py                  # Interface web (Flask/FastAPI)
-├── main.py                 # Point d'entrée principal
-├── requirements.txt        # Dépendances Python
-├── .env.example            # Exemple de configuration
-└── README.md      
 
 ## 🤝 Contributeurs
 
