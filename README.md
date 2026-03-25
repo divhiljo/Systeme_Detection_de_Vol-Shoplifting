@@ -65,7 +65,7 @@ Détection de comportements de vol
 ```bash
 # 1. Cloner le dépôt
 git clone https://github.com/divhiljo/Systeme_Detection_de_Vol-Shoplifting.git
-cd detection-de-vol
+cd systeme_Detection_de_Vol-shoplifting
 
 # 2. Créer un environnement virtuel
 python -m venv venv
